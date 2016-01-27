@@ -1,0 +1,16 @@
+.row{
+    margin-top: 25px;
+}
+
+.panel-body{
+    padding-bottom: 10px;
+}
+
+.panel.panel-default{
+    width: 1050px;
+    margin-left: -70px;
+}
+
+.table.table-hover{
+    margin-bottom: 10px;
+}
