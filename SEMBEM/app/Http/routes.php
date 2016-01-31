@@ -26,6 +26,20 @@ Route::get('/', function () {
 |
 */
 
+/*
+* Rutas del Sistema
+*/
 Route::group(['middleware' => ['web']], function () {
-    //
+	/*
+	* Rutas para el Administrador
+	*/
+    Route::group(['prefix' => 'admin', 'namespace' => 'Administrador'], function(){
+
+        Route::get('index', function(){
+           return view('Administrador.Admin.Admin');
+        });
+
+        Route::resource('personal', 'PersonalController', ['only' => ['index', 'create', 'store', 'show', 'edit', 'update']]);
+    });
+
 });
