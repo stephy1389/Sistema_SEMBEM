@@ -1,0 +1,47 @@
+.row{
+    margin-top: 7.5px;
+}
+
+.rowheight{
+    min-height: 528px;
+    max-height: 528px;
+}
+
+.panel-body{
+    padding-bottom: 0px;
+}
+
+.panel.panel-default{
+    width: 1070px;
+    margin-left: -80px;
+}
+
+.table.table-striped{
+    margin-bottom: 8px;
+}
+
+.panel-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.asterisco{
+    color: #DF0101;
+}
+
+.alert{
+    border-radius: 0px;
+}
+
+.colortext{
+    color: #DF0101;
+    font-size: 10.5px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.alert-warning {
+    color: #544324;
+    background-color: #ffff4e;
+    border-color: #f3d086;
+}
